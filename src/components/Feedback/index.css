@@ -1,0 +1,94 @@
+* {
+  font-family: 'Roboto';
+  margin: 0px;
+}
+
+.bg-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #ffeeee, #ffebeb, #ffc0bb);
+}
+
+@media screen and (max-width: 576px) {
+  .bg-con {
+    padding: 20px;
+  }
+}
+.card-con {
+  background-color: #ffff;
+  border-radius: 10px;
+}
+
+.question-con {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.que-title {
+  font-size: 25px;
+  max-width: 400px;
+  font-weight: 600;
+  color: #0f172a;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.emoji-container {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin-top: 20px;
+  padding: 0px;
+  text-align: center;
+}
+
+.btn-sty {
+  background-color: #ffff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.emoji-sty {
+  height: 56px;
+  width: 60px;
+  margin: 5px;
+}
+
+.name-sty {
+  font-size: 14px;
+  font-weight: 600;
+  color: #1e293b;
+  margin-top: 10px;
+}
+
+.feedBack-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.love-sty {
+  height: 50px;
+  width: 55px;
+  margin-bottom: 15px;
+}
+
+.thankYou-sty {
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+.description {
+  font-size: 18px;
+  max-width: 550px;
+  text-align: center;
+  color: #1e293b;
+  font-weight: 400;
+}
